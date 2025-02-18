@@ -5,6 +5,17 @@ public class Pegawai {
     String nama;
     String jabatan;
 
+    
+
+    public Pegawai() {
+    }
+
+    public Pegawai(int id, String nama, String jabatan) {
+        this.id = id;
+        this.nama = nama;
+        this.jabatan = jabatan;
+    }
+
     public int getId() {
         return id;
     }
